@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tradutor-mistral"
+version = "0.1.0"
+description = "Aplicativo de tradução usando Mistral AI e Streamlit"
+authors = ["Seu Nome <seu.email@exemplo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.31.1"
+python-dotenv = "^1.0.0"
+langchain-core = "^0.1.27"
+mistralai = "^0.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
